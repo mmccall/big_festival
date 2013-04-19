@@ -1,0 +1,36 @@
+/* Custom CSS Layered onto Twitter Bootstrap. */
+
+body {
+	margin: 0px;
+}
+
+.fh {
+	background-color: rgb(109, 185, 255);
+}
+
+/* TODO:  Fix the floating of the logo; */
+
+#fh-home {
+	min-height: 500px;
+	height: 30%;
+	min-width: 900px;
+	margin: 0;
+	padding: 0;
+	background-image: url('../img/hdr_logo.png');
+	background-repeat: no-repeat;
+	background-position: top center;
+}
+
+#fh-content {
+	width: 900px;
+}
+
+#fh-nav {
+	width: 900px;
+	min-height: 500px;
+	height: 30%;
+	margin: 0 auto;
+	background-image:  url('../img/hdr_buildings.png');
+	background-repeat: no-repeat;
+	background-position: bottom;
+}
