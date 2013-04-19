@@ -8,24 +8,21 @@ body {
 	background-color: rgb(109, 185, 255);
 }
 
-/* TODO:  Fix the floating of the logo; */
-
 #fh-home {
-	min-height: 500px;
-	height: 30%;
+	height: 500px;
 	min-width: 900px;
 	margin: 0;
 	padding: 10px 0 0 0;
 	background-image: url('../img/hdr_logo.png');
 	background-repeat: no-repeat;
-	background-position: bottom;
+	background-position: center bottom;
 }
 
 #fh-content {
 	width: 900px;
 }
 
-#fh-nav {
+#fh-home-inner {
 	width: 100%;
 	min-height: 500px;
 	background-image:  url('../img/hdr_menubar.png');
@@ -33,7 +30,7 @@ body {
 	background-position: center bottom;
 }
 
-#fh-nav-lights {
+#fh-home-lights {
 	width: 900px;
 	min-height: 500px;
 	margin: 0 auto;
@@ -42,7 +39,7 @@ body {
 	background-position: 97% 0%;
 }
 
-#fh-nav-inner {
+#fh-home-content {
 	width: 900px;
 	min-height: 500px;
 	margin: 0 auto;
@@ -55,11 +52,17 @@ body {
 	min-height: 300px;
 }
 
+#fh-home-lead {
+	margin: 125px 0;
+	height:100px;
+	width: 250px;
+	float:left;
+}
 
 .announcement {
 	font-size: 60px;
 	text-align: center;
-	margin-top: 30px;
+	margin-top: 40px;
 }
 
 .ff {
