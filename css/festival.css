@@ -8,6 +8,23 @@ body {
 	background-color: rgb(109, 185, 255);
 }
 
+.scheduleButton {
+	width: 90%;
+}
+
+.scheduleHeader td h4{
+	text-align: center;
+}
+
+.ticketInformation {
+	margin-top: 100px;
+	text-align: right;
+}
+
+.performerContent .calendarTime {
+	padding: 20px;
+}
+
 #fh-home {
 	height: 500px;
 	min-width: 900px;
@@ -60,6 +77,14 @@ body {
 	font-family: 'Life Savers', cursive;
 	text-align: center;
 	color: #69008C;
+}
+
+#fh-home-link {
+	position:absolute;
+	width: 400px;
+	height:200px;
+	margin: 75px 0 0 250px;
+
 }
 
 #fh-home-navigation {
