@@ -168,6 +168,15 @@ body {
 	color: #69008C;
 }
 
+.festivalContent p {
+	font-size: 1.2em;
+}
+
+.performerContent p, td {
+	font-size: 1.2em;
+}
+
+
 .performerContent {
 	font-family: 'Life Savers', cursive;	
 }
